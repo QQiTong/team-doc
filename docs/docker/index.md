@@ -49,7 +49,7 @@ COPY . /app
 
 RUN pnpm run build
 
-EXPOSE 3000
+EXPOSE 8848
 
 CMD ["pnpm", "run", "start-prod"]
 
