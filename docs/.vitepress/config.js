@@ -43,9 +43,9 @@ export default defineConfig({
     logo: '/logo.svg',
 
     algolia: {
-      appId: '',
-      apiKey: '',
-      indexName: 'team-doc'
+      appId: 'O610D14WMG',
+      apiKey: '872c1872e57f9917543881dcc8dd7ba2',
+      indexName: 'team'
     },
 
     // nav
