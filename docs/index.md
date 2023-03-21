@@ -1,8 +1,8 @@
 ---
 layout: home
 
-title: Vitepress Demo
-titleTemplate: 使用 Vitepress 搭建组件库文档站点。
+title: 敲敲撬撬
+titleTemplate: 敲开你的科技的大门,以技术之力撬动世界
 
 hero:
   name: 敲敲撬撬
