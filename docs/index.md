@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: 敲敲撬撬
+title: IIII
 titleTemplate: 敲开你的科技的大门,以技术之力撬动世界
 
 hero:
