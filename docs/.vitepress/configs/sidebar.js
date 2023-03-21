@@ -102,6 +102,10 @@ function getDockerSidebar() {
         {
           text: 'docker不使用hub',
           link: '/docker/docker-hub'
+        },
+        {
+          text: 'docker shell命令',
+          link: '/docker/docker-shell'
         }
       ]
     }
