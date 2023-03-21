@@ -30,6 +30,31 @@ docker run --name <image-name> --rm -it -p 80:80 <image-name>
 docker run --name <image-name> -d -p 80:80 <image-name>
 ```
 
+## dockerfile demo
+
+```sh
+FROM node:lts-alpine
+
+RUN npm install pnpm -g
+
+WORKDIR /app
+
+COPY ./package.json /app
+
+COPY ./package-lock.json /app
+
+RUN pnpm install --production && rm -rf /root/.npm /root/.pnpm-store /usr/local/share/.cache /tmp/*
+
+COPY . /app
+
+RUN pnpm run build
+
+EXPOSE 3000
+
+CMD ["pnpm", "run", "start-prod"]
+
+```
+
 ## docker 不打印输出解决方案
 
 ```sh
