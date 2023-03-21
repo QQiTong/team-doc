@@ -1,7 +1,7 @@
 # 不使用docker hub
 
-1 . docker 镜像如果不推送到docker hub 怎么直接部署到linux 服务器
-如果您不想将Docker镜像推送到Docker Hub，可以通过以下步骤将其直接部署到Linux服务器：
+1 . 如果不想将Docker镜像推送到Docker Hub，可以通过以下步骤将其直接部署到Linux服务器：
+
 将Docker镜像保存为.tar文件
 
 您可以使用以下命令将Docker镜像保存为.tar文件：
