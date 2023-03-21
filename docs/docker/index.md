@@ -15,7 +15,7 @@
 `docker login` | 登录到 Docker Hub 或其他 Docker Registry
 `docker push <image-name>` | 将指定的 Docker 镜像推送到 Docker Registry
 `docker pull <image-name>` | 从 Docker Registry 下载指定的 Docker 镜像
-`docker run -d -p 80:80 <image-name>` | Docker 中运行一个容器 -d: 让容器在后台运行。-p 80:80: 将容器内部的 80 端口映射到主机的 80 端口，使得可以通过主机的 IP 地址和端口来访问容器中的应用程序 `image-name`: 使用的镜像名称
+`docker run -d -p 80:8080 <image-name>` | Docker 中运行一个容器 -d: 让容器在后台运行。-p 80:8080: 将容器内部的 8080 端口映射到主机的 80 端口，使得可以通过主机的 IP 地址和端口来访问容器中的应用程序 `image-name`: 使用的镜像名称
 `docker --help` | 查看更多的选项和子命令。
 
 ## 前台运行
