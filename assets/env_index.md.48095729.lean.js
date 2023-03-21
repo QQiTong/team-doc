@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,Q as o}from"./chunks/framework.18ddace7.js";const _=JSON.parse('{"title":"node_env","description":"","frontmatter":{},"headers":[],"relativePath":"env/index.md","lastUpdated":1679397563000}'),e={name:"env/index.md"},l=o("",5),p=[l];function c(t,r,d,i,y,E){return a(),n("div",null,p)}const h=s(e,[["render",c]]);export{_ as __pageData,h as default};
