@@ -17,11 +17,11 @@
 最近项目中用到的
 
 ```sh
-docker build -t vue-pure-admin .
+docker build -t <image-name> .
 ```
 
 ```sh
-docker run --name vue-pure-admin --rm -it  -p 80:80 vue-pure-admin
+docker run --name <image-name> --rm -it  -p 80:80 <image-name>
 ```
 
 ## docker 不打印输出
