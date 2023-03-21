@@ -30,7 +30,7 @@ docker run --name <image-name> --rm -it -p 80:80 <image-name>
 docker run --name <image-name> -d -p 80:80 <image-name>
 ```
 
-## dockerfile demo
+## Dockerfile 配置
 
 ```sh
 FROM node:lts-alpine
@@ -53,6 +53,14 @@ EXPOSE 3000
 
 CMD ["pnpm", "run", "start-prod"]
 
+```
+
+## .dockerignore 配置
+
+```sh
+**/node_modules
+*/node_modules
+node_modules
 ```
 
 ## docker 不打印输出解决方案
