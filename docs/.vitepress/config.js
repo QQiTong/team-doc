@@ -5,7 +5,7 @@ import sidebar from './configs/sidebar'
 
 export default defineConfig({
   // lang: 'en-US',
-  title: 'Iiii',
+  title: '敲敲撬撬',
   description: '使用 Vitepress 搭建组件库文档站点。',
 
   lastUpdated: true,
