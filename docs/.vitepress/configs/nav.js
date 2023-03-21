@@ -5,8 +5,9 @@ export default [
       { text: 'git', link: '/git/', activeMatch: '^/git/' },
       { text: 'docker', link: '/docker/' },
       { text: 'linux', link: '/linux/' },
-      { text: 'vscode', link: '/vscode' },
-      { text: 'chatgpt', link: '/chatgpt' }
+      { text: 'vscode', link: '/vscode/' },
+      { text: 'chatgpt', link: '/chatgpt/' },
+      { text: '环境', link: '/env/' }
     ],
   },
   {

@@ -4,6 +4,7 @@ export default {
   '/git/': getGitSidebar(),
   '/linux/':getLinuxSidebar(),
   '/docker/':getDockerSidebar(),
+  '/env/':getEnvSidebar(),
 }
 
 function getNodejsSidebar() {
@@ -102,6 +103,20 @@ function getDockerSidebar() {
           text: 'docker不使用hub',
           link: '/docker/docker-hub'
         }
+      ]
+    }
+  ]
+}
+function getEnvSidebar() {
+  return [
+    {
+      text: '环境',
+      items: [
+        {
+          text: '开发运行环境',
+          link: '/env/'
+        },
+        
       ]
     }
   ]
