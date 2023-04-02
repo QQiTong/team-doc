@@ -42,9 +42,15 @@ export default defineConfig({
     lastUpdatedText: '上次更新',
     logo: '/logo.svg',
 
+    // algolia: {
+    //   appId: 'O610D14WMG',
+    //   apiKey: '872c1872e57f9917543881dcc8dd7ba2',
+    //   indexName: 'team'
+    // },
+
     algolia: {
-      appId: 'O610D14WMG',
-      apiKey: '872c1872e57f9917543881dcc8dd7ba2',
+      appId: 'HANTQYRENZ',
+      apiKey: '55f373ff704c0060da7babe9c0310425',
       indexName: 'team'
     },
 
