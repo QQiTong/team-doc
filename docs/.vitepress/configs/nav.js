@@ -7,7 +7,8 @@ export default [
       { text: 'linux', link: '/linux/' },
       { text: 'vscode', link: '/vscode/' },
       { text: 'chatgpt', link: '/chatgpt/' },
-      { text: '环境', link: '/env/' }
+      { text: '环境', link: '/env/' },
+      { text: 'monorepo', link: '/monorepo/' }
     ],
   },
   {

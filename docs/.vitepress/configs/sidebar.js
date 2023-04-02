@@ -5,6 +5,8 @@ export default {
   '/linux/':getLinuxSidebar(),
   '/docker/':getDockerSidebar(),
   '/env/':getEnvSidebar(),
+  '/monorepo':getMonorepoSidebar(),
+  '/chatgpt':getChatGPTSidebar()
 }
 
 function getNodejsSidebar() {
@@ -50,7 +52,11 @@ function getVueSidebar() {
         {
           text: 'Vue Script',
           link: '/vue/vue-script'
-        }
+        },
+        {
+          text: 'css',
+          link: '/vue/css'
+        },
       ]
     }
   ]
@@ -119,6 +125,34 @@ function getEnvSidebar() {
         {
           text: '开发运行环境',
           link: '/env/'
+        },
+        
+      ]
+    }
+  ]
+}
+function getMonorepoSidebar() {
+  return [
+    {
+      text: 'monorepo',
+      items: [
+        {
+          text: 'monorepo',
+          link: '/monorepo/'
+        },
+        
+      ]
+    }
+  ]
+}
+function getChatGPTSidebar() {
+  return [
+    {
+      text: 'ChatGPT',
+      items: [
+        {
+          text: '调教指南',
+          link: '/chatgpt/'
         },
         
       ]
