@@ -51,7 +51,7 @@ export default defineConfig({
     algolia: {
       appId: 'HANTQYRENZ',
       apiKey: '55f373ff704c0060da7babe9c0310425',
-      indexName: 'team'
+      indexName: 'team-doc'
     },
 
     // nav
