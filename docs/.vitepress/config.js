@@ -44,7 +44,8 @@ export default defineConfig({
 
     algolia: {
       appId: 'O610D14WMG',
-      apiKey: '872c1872e57f9917543881dcc8dd7ba2',
+      // apiKey: '872c1872e57f9917543881dcc8dd7ba2',
+      // apiKey: '6121da232b9f430c73556340fc2fbac9',
       indexName: 'team'
     },
 
