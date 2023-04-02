@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as c,Q as d}from"./chunks/framework.18ddace7.js";const m=JSON.parse('{"title":"提交规范","description":"","frontmatter":{},"headers":[],"relativePath":"git/commit.md","lastUpdated":1680415522000}'),r={name:"git/commit.md"},t=d("",5),a=[t];function n(i,s,_,b,l,p){return c(),o("div",null,a)}const h=e(r,[["render",n]]);export{m as __pageData,h as default};
