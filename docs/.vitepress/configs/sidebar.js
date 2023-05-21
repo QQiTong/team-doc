@@ -65,14 +65,18 @@ function getVueSidebar() {
 function getGitSidebar() {
   return [
     {
-      text: 'Git',
+      text: 'Midjourney',
       items: [
         {
-          text: 'git常用命令',
+          text: 'Imagine',
           link: '/git/'
         },
         {
-          text: 'git提交规范',
+          text: 'Buttons',
+          link: '/git/commit'
+        },
+        {
+          text: 'Waiting',
           link: '/git/commit'
         }
       ]

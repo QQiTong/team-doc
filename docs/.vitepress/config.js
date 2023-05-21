@@ -5,8 +5,8 @@ import sidebar from './configs/sidebar'
 
 export default defineConfig({
   // lang: 'en-US',
-  title: 'iiii',
-  description: '使用 Vitepress 搭建组件库文档站点。',
+  title: 'NZB',
+  description: 'AI领域 API服务',
 
   lastUpdated: true,
   cleanUrls: 'without-subfolders',

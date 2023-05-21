@@ -1,34 +1,27 @@
 export default [
   {
-    text: '通用',
+    text: 'AI绘画',
     items: [
-      { text: 'git', link: '/git/', activeMatch: '^/git/' },
-      { text: 'docker', link: '/docker/' },
-      { text: 'linux', link: '/linux/' },
-      { text: 'vscode', link: '/vscode/' },
-      { text: 'chatgpt', link: '/chatgpt/' },
-      { text: '环境', link: '/env/' },
-      { text: 'monorepo', link: '/monorepo/' }
+      { text: 'Midjourney', link: '/git/', activeMatch: '^/git/' },
+      { text: 'Stable Diffusion', link: '/docker/' },
     ],
   },
   {
-    text: '前端',
+    text: 'ChapGPT',
     items: [
-      { text: 'vue', link: '/vue/button', activeMatch: '^/vue/' },
-      { text: 'react', link: '/react' },
-      { text: 'angular', link: '/angular' },
+      { text: 'GPT-3.5', link: '/vue/button', activeMatch: '^/vue/' },
+      { text: 'GPT-4', link: '/react' }
     ],
   },
+  // {
+  //   text: '数字人',
+  //   items: [
+  //     { text: '形象克隆', link: '/nodejs' },
+  //     { text: '声音克隆', link: '/java' },
+  //   ],
+  // },
   {
-    text: '后端',
-    items: [
-      { text: 'nodejs', link: '/nodejs' },
-      { text: 'java', link: '/java' },
-      { text: 'python', link: '/python' },
-    ],
-  },
-  {
-    text: '官方网站',
+    text: '案例展示',
     link: 'http://www.iiii.com',
   },
 ]

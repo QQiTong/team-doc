@@ -1,16 +1,16 @@
 ---
 layout: home
 
-title: 敲敲撬撬
-titleTemplate: 敲开你的科技的大门,以技术之力撬动世界
+title: NZB
+titleTemplate: AI领域 API服务
 
 hero:
-  name: 敲敲撬撬
-  text: 敲开你的科技的大门,以技术之力撬动世界。
-  tagline: 区块链 游戏 人工智能 Dapp。
+  name: NZB
+  text: AI领域 API技术支持
+  tagline: 助力 AIGC
   image:
     src: /logo.svg
-    alt: vitepress-theme-demoblock  
+    alt: NZB 
   actions:
     - theme: brand
       text: Get Started
@@ -21,15 +21,15 @@ hero:
 
 features:
   - icon: ⚡️
-    title: 应用层
+    title: 区块链
     details: 智能合约应用程序 区块链浏览器
   - icon: 💡
-    title: 业务层
-    details: 区块链节点 区块链客户端 智能合约开发 存储
+    title: AI绘画
+    details: Midjourney Stable Diffusion
   - icon: 🛠️
-    title: 基础层
-    details: 区块链网络 智能合约虚拟机 加密算法 共识算法
+    title: ChatGPT
+    details: GPT-3.5 GPT-4
   - icon: 🔑
-    title: 运维层
-    details: 部署 监控 日志 安全
+    title: 数字人
+    details: 形象克隆 声音克隆
 ---
