@@ -77,7 +77,7 @@ export default defineConfig({
     // ],
 
     footer: {
-      message: '',
+      message: `友情链接 <a href='http://www.nzb.com'>nzb</a> <a href='http://www.midjourneysapi.com'>midjourneysapi</a>`,
       copyright: 'Copyright © 2023-present 敲敲撬撬'
     }
   }
