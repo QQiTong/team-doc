@@ -1,7 +1,7 @@
 export default {
   '/nodejs/': getNodejsSidebar(),
   '/vue/': getVueSidebar(),
-  '/git/': getGitSidebar(),
+  '/midjourney/': getMidjourneySidebar(),
   '/linux/':getLinuxSidebar(),
   '/docker/':getDockerSidebar(),
   '/env/':getEnvSidebar(),
@@ -62,22 +62,42 @@ function getVueSidebar() {
   ]
 }
 
-function getGitSidebar() {
+function getMidjourneySidebar() {
   return [
     {
       text: 'Midjourney',
       items: [
         {
-          text: 'Imagine',
-          link: '/git/'
+          text: '开始',
+          link: '/midjourney/'
         },
         {
-          text: 'Buttons',
-          link: '/git/commit'
+          text: '画图',
+          link: '/midjourney/imagine'
         },
         {
-          text: 'Waiting',
-          link: '/git/commit'
+          text: '按钮操作',
+          link: '/midjourney/button'
+        },
+        {
+          text: '等待任务数',
+          link: '/midjourney/waiting'
+        },
+        {
+          text: '绘画任务数',
+          link: '/midjourney/pending'
+        },
+        {
+          text: '当前任务',
+          link: '/midjourney/job'
+        },
+        {
+          text: '回调',
+          link: '/midjourney/webhook'
+        },
+        {
+          text: '刷新',
+          link: '/midjourney/refresh'
         }
       ]
     }

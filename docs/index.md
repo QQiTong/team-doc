@@ -5,31 +5,31 @@ title: NZB
 titleTemplate: AI领域 API服务
 
 hero:
-  name: NZB
-  text: AI领域 API技术支持
-  tagline: 助力 AIGC
+  name: Midjourney
+  text: API服务
+  tagline: 助力 企业级客户
   image:
-    src: /logo.svg
+    src: /logo.png
     alt: NZB 
   actions:
     - theme: brand
-      text: Get Started
-      link: /git/
-    - theme: alt
-      text: Learn More
-      link: /git/
+      text: API 文档
+      link: /midjourney/
+    # - theme: alt
+    #   text: 联系我们
+    #   link: /midjourney/
 
 features:
   - icon: ⚡️
-    title: 区块链
-    details: 智能合约应用程序 区块链浏览器
+    title: 即时设置
+    details: 立即设置您的 API 密钥并开始向 Midjourney 发出请求。
   - icon: 💡
-    title: AI绘画
-    details: Midjourney Stable Diffusion
+    title: 无限生成
+    details: 可以进行无限图像生成
   - icon: 🛠️
-    title: ChatGPT
-    details: GPT-3.5 GPT-4
+    title: 功能齐全
+    details: 提供对Midjourney的所有功能和服务的完全访问
   - icon: 🔑
-    title: 数字人
-    details: 形象克隆 声音克隆
+    title: 持续更新
+    details: 技术团队持续更新与维护
 ---

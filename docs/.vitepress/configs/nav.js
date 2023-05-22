@@ -1,18 +1,20 @@
 export default [
   {
-    text: 'AI绘画',
-    items: [
-      { text: 'Midjourney', link: '/git/', activeMatch: '^/git/' },
-      { text: 'Stable Diffusion', link: '/docker/' },
-    ],
+    // text: 'AI绘画',
+    // items: [
+    //   { text: 'Midjourney', link: '/midjourney/', activeMatch: '^/midjourney/' },
+    // ],
+    text: 'Midjourney',
+    link: '/midjourney/',
+  
   },
-  {
-    text: 'ChapGPT',
-    items: [
-      { text: 'GPT-3.5', link: '/vue/button', activeMatch: '^/vue/' },
-      { text: 'GPT-4', link: '/react' }
-    ],
-  },
+  // {
+  //   text: 'ChapGPT',
+  //   items: [
+  //     { text: 'GPT-3.5', link: '/vue/button', activeMatch: '^/vue/' },
+  //     { text: 'GPT-4', link: '/react' }
+  //   ],
+  // },
   // {
   //   text: '数字人',
   //   items: [
