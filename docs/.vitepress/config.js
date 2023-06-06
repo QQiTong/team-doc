@@ -5,7 +5,7 @@ import sidebar from './configs/sidebar'
 
 export default defineConfig({
   // lang: 'en-US',
-  title: 'NZB',
+  title: 'Midjourney',
   description: 'AI领域 API服务',
 
   lastUpdated: true,
@@ -77,8 +77,8 @@ export default defineConfig({
     // ],
 
     footer: {
-      message: `友情链接 <a href='http://www.nzb.com'>nzb</a> <a href='http://www.midjourneysapi.com'>midjourneysapi</a>`,
-      copyright: 'Copyright © 2023-present 敲敲撬撬'
+      message: `友情链接 <a href='http://www.midjourneysapi.com'>midjourneysapi</a> <a href='http://www.iiii.com'>Future AI</a>`,
+      copyright: '深圳市敲敲撬撬科技有限公司  粤ICP备2023038424号-1'
     }
   }
 })

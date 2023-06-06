@@ -8,6 +8,14 @@ export default [
     link: '/midjourney/',
   
   },
+  {
+    text: '关于我们',
+    link: '/about/',
+  },
+  {
+    text: '联系我们',
+    link: '/contact/',
+  },
   // {
   //   text: 'ChapGPT',
   //   items: [

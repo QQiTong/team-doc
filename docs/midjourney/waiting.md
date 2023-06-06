@@ -7,7 +7,9 @@ permalink: /pages/midjourney/waiting
 ## 接口说明
 
 当前账户等待队列数量
-## 在线调试地址 <a href='https://www.iiii.com/midjourney#/midjourney/AppController_waiting'>`https://www.iiii.com/midjourney#/midjourney/AppController_waiting`</a>
+## 在线调试地址 
+
+<a href='https://www.iiii.com/drawapi#/midjourney/AppController_waiting'>`https://www.iiii.com/drawapi#/midjourney/AppController_waiting`</a>
 
 ## 请求头
 

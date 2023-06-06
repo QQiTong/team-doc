@@ -2,8 +2,8 @@ export default {
   '/nodejs/': getNodejsSidebar(),
   '/vue/': getVueSidebar(),
   '/midjourney/': getMidjourneySidebar(),
-  '/linux/':getLinuxSidebar(),
-  '/docker/':getDockerSidebar(),
+  '/contact/':getContactSidebar(),
+  '/about/':getAboutSidebar(),
   '/env/':getEnvSidebar(),
   '/monorepo':getMonorepoSidebar(),
   '/chatgpt':getChatGPTSidebar()
@@ -94,50 +94,28 @@ function getMidjourneySidebar() {
         {
           text: '回调',
           link: '/midjourney/webhook'
-        },
-        {
-          text: '刷新',
-          link: '/midjourney/refresh'
         }
+        // {
+        //   text: '刷新',
+        //   link: '/midjourney/refresh'
+        // }
       ]
     }
   ]
 }
-function getLinuxSidebar() {
+function getContactSidebar() {
   return [
     {
-      text: 'Linux',
-      items: [
-        {
-          text: 'linux常用命令',
-          link: '/linux/'
-        },
-        {
-          text: 'linux安装三方软件',
-          link: '/linux/linux-install-third'
-        }
-      ]
+      text: '联系我们',
+      link: '/contact/'
     }
   ]
 }
-function getDockerSidebar() {
+function getAboutSidebar() {
   return [
     {
-      text: 'docker',
-      items: [
-        {
-          text: 'docker常用命令',
-          link: '/docker/'
-        },
-        {
-          text: 'docker不使用hub',
-          link: '/docker/docker-hub'
-        },
-        {
-          text: 'docker shell命令',
-          link: '/docker/docker-shell'
-        }
-      ]
+      text: '关于我们',
+      link: '/about/'
     }
   ]
 }

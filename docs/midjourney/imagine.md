@@ -9,7 +9,9 @@ permalink: /pages/midjourney/imagine
   根据prompt 参数进行画图
 <!-- <Badge type="tip" text="POST" /> `https://www.iiii.com/midjourney/imagine` -->
 
-## 在线调试地址 <a href='https://www.iiii.com/midjourney#/midjourney/AppController_imagine'>`https://www.iiii.com/midjourney#/midjourney/AppController_imagine`</a>
+## 在线调试地址 
+
+<a href='https://www.iiii.com/drawapi#/midjourney/AppController_imagine'>`https://www.iiii.com/drawapi#/midjourney/AppController_imagine`</a>
 
 ## 请求头
 

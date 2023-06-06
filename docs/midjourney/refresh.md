@@ -8,7 +8,9 @@ permalink: /pages/midjourney/refresh
 
 如果因为系统原因,出现画图失败可以重新提交绘画请求
 
-## 在线调试地址 <a href='https://www.iiii.com/midjourney#/midjourney/AppController_refreshImage'>`https://www.iiii.com/midjourney#/midjourney/AppController_refreshImage`</a>
+## 在线调试地址
+
+<a href='https://www.iiii.com/drawapi#/midjourney/AppController_refreshImage'>`https://www.iiii.com/drawapi#/midjourney/AppController_refreshImage`</a>
 
 ## 请求头
 

@@ -9,6 +9,10 @@ permalink: /pages/midjourney/
   该API 是 Midjourney 的社区扩展，提供对平台功能和服务的 API 访问。
   通过将该API集成到您的应用程序中，您可以利用 Midjourney 的强大功能来增强您自己产品的用户体验。
 
+  您也可以访问
+  
+  <a href='https://www.iiii.com/image-square/index'>https://www.iiii.com/image-square/index</a>体验一下！
+
 ### 授权
 
   您需要发送邮件到<chenghaigen@iiii.com> 获取。邮件需要提供webhook url

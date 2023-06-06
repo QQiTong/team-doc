@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: NZB
+title: Midjourney
 titleTemplate: AI领域 API服务
 
 hero:
@@ -10,7 +10,7 @@ hero:
   tagline: 助力 企业级客户
   image:
     src: /logo.png
-    alt: NZB 
+    alt: Midjourney 
   actions:
     - theme: brand
       text: API 文档

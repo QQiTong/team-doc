@@ -7,7 +7,9 @@ permalink: /pages/midjourney/pending
 ## 接口说明
 
 当前账户正在绘画的数量
-## 在线调试地址 <a href='https://www.iiii.com/midjourney#/midjourney/AppController_pending'>`https://www.iiii.com/midjourney#/midjourney/AppController_pending`</a>
+## 在线调试地址 
+
+<a href='https://www.iiii.com/drawapi#/midjourney/AppController_pending'>`https://www.iiii.com/drawapi#/midjourney/AppController_pending`</a>
 
 ## 请求头
 

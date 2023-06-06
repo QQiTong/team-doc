@@ -8,7 +8,9 @@ permalink: /pages/midjourney/job
 
 根据tag,获取当前任务,一般不需要调用,正常任务会通过webhook返回
 
-## 在线调试地址 <a href=''>`https://www.iiii.com/midjourney#/midjourney/AppController_refreshImage`</a>
+## 在线调试地址
+
+<a href=''>`https://www.iiii.com/drawapi#/midjourney/AppController_refreshImage`</a>
 
 ## 请求头
 

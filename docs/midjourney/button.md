@@ -8,7 +8,9 @@ permalink: /pages/midjourney/button
 
 u1-u4,r,v1-v4 画图
 
-## 在线调试地址 <a href='https://www.iiii.com/midjourney#/midjourney/AppController_button'>`https://www.iiii.com/midjourney#/midjourney/AppController_button`</a>
+## 在线调试地址 
+
+<a href='https://www.iiii.com/drawapi#/midjourney/AppController_button'>`https://www.iiii.com/drawapi#/midjourney/AppController_button`</a>
 
 ## 请求头
 
