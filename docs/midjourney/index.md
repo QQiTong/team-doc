@@ -11,7 +11,12 @@ permalink: /pages/midjourney/
 
   您也可以访问
   
-  <a href='https://www.iiii.com/image-square/index'>https://www.iiii.com/image-square/index</a>体验一下！
+  <a href='https://www.iiii.com/image-square/index'>https://www.iiii.com/image-square/index</a> 体验一下！
+
+### API接口通用地址
+
+`https://www.iiii.com`
+
 
 ### 授权
 
@@ -28,7 +33,17 @@ permalink: /pages/midjourney/
 #### token
 
    收到了您的正确的Webhook URL后,我们会给您一个“token”，所有 API 请求都需要此密钥。
-  
+
+## 请求头
+
+```JSON
+{
+  "accept":"application/json",
+  "token":"分配的token",
+  "Content-Type":"application/json"
+}
+```
+
 ### 速率限制
 
   允许每 3 秒一个请求

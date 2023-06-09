@@ -6,7 +6,7 @@ permalink: /pages/midjourney/imagine
 
 ## 接口说明
 
-  根据promptEn画图,如果网站需要把命令分开例如--ar,可以调用该接口
+  与`/draw/midjourney/imagine`的区别是,该接口传递的是原始promptEn,忽略isNiji,ar,参数
 
 ## 请求方式
   
@@ -14,7 +14,7 @@ permalink: /pages/midjourney/imagine
 
 ## 请求地址
 
-`/draw/midjourney/imagine`
+`/draw/midjourney/origin/imagine`
 
 ## 请求参数
 

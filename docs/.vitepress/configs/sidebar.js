@@ -76,9 +76,14 @@ function getMidjourneySidebar() {
           link: '/midjourney/imagine'
         },
         {
+          text: '原始画图',
+          link: '/midjourney/originImagine'
+        },
+        {
           text: '按钮操作',
           link: '/midjourney/button'
         },
+
         {
           text: '等待任务数',
           link: '/midjourney/waiting'

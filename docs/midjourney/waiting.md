@@ -1,34 +1,24 @@
 ---
 title: 画图
 date: 2023-03-20
-permalink: /pages/midjourney/waiting
+permalink: /pages/midjourney/imagine
 ---
 
 ## 接口说明
 
-当前账户等待队列数量
-## 在线调试地址 
+  当前账户的等待队列数量
 
-<a href='https://www.iiii.com/drawapi#/midjourney/AppController_waiting'>`https://www.iiii.com/drawapi#/midjourney/AppController_waiting`</a>
+## 请求方式
+  
+<Badge type="tip" text="POST" />
 
-## 请求头
+## 请求地址
 
-```JSON
-{
-  "accept":"application/json",
-  "token":"",
-  "Content-Type":"application/json"
-}
-```
+`/draw/midjourney/waiting`
+
+
 ## 响应结果
 
-```JSON
-{
-/**其他事报错信息的错误码 */
-statusCode :number;
-/**返回成功这里是success,失败这里是报错信息 */
-message:string;
-/**返回数据正常的时候,这里是数据 */
-data:number;
-}
-```
+| Key | Type | Description |
+| --- | --- | --- |
+| data | number | 数量 |

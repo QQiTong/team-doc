@@ -5,3 +5,5 @@
 邮箱：<chenghaigen@iiii.com>
 
 手机：13380374010
+
+企业微信：<img src="https://testeasemeta.oss-cn-shenzhen.aliyuncs.com/web/hg_wx.png">
