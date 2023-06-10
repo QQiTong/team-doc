@@ -18,16 +18,14 @@ permalink: /pages/midjourney/imagine
 
 ## 请求参数
 
-
-| Key | Type | Default Value | Description |
-| --- | --- | --- | --- |
-| buttonType | string | u2 | button 类型包括v1-v4,r,u1-u4,枚举类型 |
-| messageId | string | 1105137800560513126 | 更新绘画id |
-| tag | string | 用户标识 | 标识用户的id |
-| fast | boolean | false | 是否加速 |
-| callBackUrl | string | http://www.baidu.com | callBackUrl,回调地址,如果为空,会调用初始设置的callbackUrl |
-
-
+| 字段           | 类型       | 默认值            | 必填   | 备注    |
+| ----------- | ------- | --------------------- | ---- | ---------------------------------------------- |
+| buttonType  | string  | u2                    |  是    | button 类型包括v1-v4,r,u1-u4,枚举类型           |
+| messageId   | string  | 1105137800560513126   |  是    | 更新绘画id                                     |
+| tag         | string  | 用户标识              |   是    | 标识用户的id                                  |
+| fast        | boolean | false                 | 是    | 是否加速                                       |
+| callBackUrl | string  | http://www.baidu.com  | 否     | callBackUrl,回调地址,如果为空,会调用初始设置的callbackUrl |
+| extra          | string     |                   | 否         | 附加信息                                                  |
 ## 响应结果
 
 | Key | Type | Description |

@@ -14,7 +14,7 @@ permalink: /pages/midjourney/webhook
 ## 响应结果
 
 
-| Key | Type | Description |
+| 字段 | 类型 | 备注 |
 | --- | --- | --- |
 | messageId | string | 消息id,button需要这个id,当执行u1-u1,让,v1-v4需要这个字段作为标识 |
 | width | number | 图片的宽高 |
