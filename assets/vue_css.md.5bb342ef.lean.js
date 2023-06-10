@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.190a3809.js";const d=JSON.parse('{"title":"动画效果","description":"","frontmatter":{},"headers":[],"relativePath":"vue/css.md","lastUpdated":1686384580000}'),p={name:"vue/css.md"},o=l("",11),e=[o];function t(c,r,E,y,i,F){return a(),n("div",null,e)}const u=s(p,[["render",t]]);export{d as __pageData,u as default};
