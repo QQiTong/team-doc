@@ -1,23 +1,34 @@
-# Vue 引用组件
+# 控制台问题
 
-## 基础用法
+## ref dom引用 正常情况是这样的
 
-基础的按钮用法。
+```js
+<div ref="divRef">aa</div>
+```
 
-<demo-block>
-  <xl-button>默认按钮</xl-button>
-  <xl-button type="primary">主要按钮</xl-button>
-  <xl-button type="success">成功按钮</xl-button>
-  <xl-button type="info">信息按钮</xl-button>
-  <xl-button type="warning">警告按钮</xl-button>
-  <xl-button type="danger">危险按钮</xl-button>
-</demo-block>
+```js
+const divRef = ref();
+onMounted(() => {
+  console.log("ref", divRef.value);
+});
+```
 
-## Attributes
+结果:
 
-| 参数    | 说明         | 类型     | 可选值       | 默认值 |
-| ------- | ------------ | -------- | ------------ | ------ |
-| visible | 是否展示     | boolean  | true / false | normal |
-| ok      | 确认触发函数 | function | ()=>{}       | —      |
-| cancel  | 取消触发函数 | function | ()=>{}       | —      |
+```html
+ref <div>aa</div>
+```
 
+## 但是在我们控制台界面上却是这样
+```js
+divRef.value[0] 才能取到对应的dom元素
+```
+
+## 打开字幕的整个流程
+
+1. 打开字幕开关：
+    - sourceStyleList 插入 字幕node元素
+    - createWorkForm 对象中插入srtStyle对象
+2. 关闭字幕开关:
+    - sourceStyleList 删除 字幕node元素
+    - createWorkForm 对象中将srtStyle对象置空
