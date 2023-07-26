@@ -5,13 +5,8 @@ import sidebar from './configs/sidebar'
 
 export default defineConfig({
   // lang: 'en-US',
-<<<<<<< HEAD
   title: 'iiii',
   description: '使用 Vitepress 搭建的组件库文档站点。',
-=======
-  title: 'Midjourney',
-  description: 'AI领域 API服务',
->>>>>>> 81bc5a3d4a638a53163b89dd86c5938585d6870c
 
   lastUpdated: true,
   cleanUrls: 'without-subfolders',
