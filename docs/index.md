@@ -1,35 +1,47 @@
 ---
 layout: home
 
-title: 敲敲撬撬
-titleTemplate: 敲开你的科技的大门,以技术之力撬动世界
+title: Midjourney
+titleTemplate: AI领域 API服务
 
 hero:
-  name: 敲敲撬撬
-  text: 敲开你的科技的大门,以技术之力撬动世界。
-  tagline: 区块链 游戏 人工智能 Dapp。
+  name: Midjourney
+  text: API服务
+  tagline: 助力 企业级客户
   image:
-    src: /logo.svg
-    alt: vitepress-theme-demoblock  
+    src: /logo.png
+    alt: Midjourney 
   actions:
     - theme: brand
-      text: Get Started
-      link: /git/
-    - theme: alt
-      text: Learn More
-      link: /git/
+      text: API 文档
+      link: /midjourney/
+    # - theme: alt
+    #   text: 联系我们
+    #   link: /midjourney/
 
 features:
   - icon: ⚡️
-    title: 应用层
-    details: 智能合约应用程序 区块链浏览器
+    title: 绘图过程
+    details: 支持模糊图到完整图生成
   - icon: 💡
-    title: 业务层
-    details: 区块链节点 区块链客户端 智能合约开发 存储
+    title: 无限绘图
+    details: 无限制绘图数量
   - icon: 🛠️
-    title: 基础层
-    details: 区块链网络 智能合约虚拟机 加密算法 共识算法
+    title: 功能齐全
+    details: 提供对Midjourney的所有功能和服务的完全访问
   - icon: 🔑
-    title: 运维层
-    details: 部署 监控 日志 安全
+    title: 持续更新
+    details: 技术团队持续更新与维护
+  - icon: 🔥
+    title: 解决方案
+    details: 可独立部署企业画图解决方案
+  - icon: 💕
+    title: 人工智能内容审核
+    details: 轻松从图像中删除 NSFW 内容
+  - icon: 🚀
+    title: 二次元动漫
+    details: 支持niji模型
+  - icon: ✨
+    title: 立即生效
+    details: 配置好API密钥即可向Midjourney 发出请求。
 ---

@@ -1,10 +1,12 @@
 export default {
   '/nodejs/': getNodejsSidebar(),
   '/vue/': getVueSidebar(),
-  '/git/': getGitSidebar(),
-  '/linux/':getLinuxSidebar(),
-  '/docker/':getDockerSidebar(),
+  '/midjourney/': getMidjourneySidebar(),
+  '/contact/':getContactSidebar(),
+  '/about/':getAboutSidebar(),
   '/env/':getEnvSidebar(),
+  '/monorepo':getMonorepoSidebar(),
+  '/chatgpt':getChatGPTSidebar()
 }
 
 function getNodejsSidebar() {
@@ -50,64 +52,75 @@ function getVueSidebar() {
         {
           text: 'Vue Script',
           link: '/vue/vue-script'
-        }
+        },
+        {
+          text: 'css',
+          link: '/vue/css'
+        },
       ]
     }
   ]
 }
 
-function getGitSidebar() {
+function getMidjourneySidebar() {
   return [
     {
-      text: 'Git',
+      text: 'Midjourney',
       items: [
         {
-          text: 'git常用命令',
-          link: '/git/'
+          text: '开始',
+          link: '/midjourney/'
         },
         {
-          text: 'git提交规范',
-          link: '/git/commit'
+          text: '画图',
+          link: '/midjourney/imagine'
+        },
+        {
+          text: '原始画图',
+          link: '/midjourney/originImagine'
+        },
+        {
+          text: '按钮操作',
+          link: '/midjourney/button'
+        },
+
+        {
+          text: '等待任务数',
+          link: '/midjourney/waiting'
+        },
+        {
+          text: '绘画任务数',
+          link: '/midjourney/pending'
+        },
+        {
+          text: '当前任务',
+          link: '/midjourney/job'
+        },
+        {
+          text: '回调',
+          link: '/midjourney/webhook'
         }
+        // {
+        //   text: '刷新',
+        //   link: '/midjourney/refresh'
+        // }
       ]
     }
   ]
 }
-function getLinuxSidebar() {
+function getContactSidebar() {
   return [
     {
-      text: 'Linux',
-      items: [
-        {
-          text: 'linux常用命令',
-          link: '/linux/'
-        },
-        {
-          text: 'linux安装三方软件',
-          link: '/linux/linux-install-third'
-        }
-      ]
+      text: '联系我们',
+      link: '/contact/'
     }
   ]
 }
-function getDockerSidebar() {
+function getAboutSidebar() {
   return [
     {
-      text: 'docker',
-      items: [
-        {
-          text: 'docker常用命令',
-          link: '/docker/'
-        },
-        {
-          text: 'docker不使用hub',
-          link: '/docker/docker-hub'
-        },
-        {
-          text: 'docker shell命令',
-          link: '/docker/docker-shell'
-        }
-      ]
+      text: '关于我们',
+      link: '/about/'
     }
   ]
 }
@@ -119,6 +132,34 @@ function getEnvSidebar() {
         {
           text: '开发运行环境',
           link: '/env/'
+        },
+        
+      ]
+    }
+  ]
+}
+function getMonorepoSidebar() {
+  return [
+    {
+      text: 'monorepo',
+      items: [
+        {
+          text: 'monorepo',
+          link: '/monorepo/'
+        },
+        
+      ]
+    }
+  ]
+}
+function getChatGPTSidebar() {
+  return [
+    {
+      text: 'ChatGPT',
+      items: [
+        {
+          text: '调教指南',
+          link: '/chatgpt/'
         },
         
       ]
